@@ -20,8 +20,10 @@ const Pagination = ({postPerPage,totalPost,paginate,currentPage,setCurrentPage})
 // disabled states implemented depending on the currentpage 
 }
         <ul className="pagination">
-            <button 
+            <button
+
                 disabled = {currentPage === 1 ? true : false }
+                tabIndex='0'
                 onClick={prev}>
                      prev
                 </button>
@@ -36,6 +38,7 @@ const Pagination = ({postPerPage,totalPost,paginate,currentPage,setCurrentPage})
                 ) )
             }
             <button
+tabIndex='0'
             disabled = {currentPage === 10 ? true : false }
              onClick={next}>next</button>
         </ul>

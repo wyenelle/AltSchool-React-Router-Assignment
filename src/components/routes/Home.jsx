@@ -17,7 +17,7 @@ const Home = () => {
    }
 
   return (
-    <div style={styles} className="center-all">
+    <main style={styles} className="center-all">
       <h1>Home Page</h1> 
       <p>
         Welcome to the <b>Home</b> page
@@ -26,7 +26,7 @@ const Home = () => {
       <p style={styles_2}>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure dignissimos odio rerum dolor ipsum! Cupiditate nulla repellat libero. Minus, eum? Ex in cum debitis officiis soluta sit vero ut omnis!
       </p>
-    </div>
+    </main>
   );
 };
 

@@ -16,7 +16,7 @@ const paragraphs = {
   fontSize : '20px'
 }
   return (
-    <div style={styles} className="">
+    <main style={styles} className="">
       <div style={styles_2} className="center-all">
         <h1>Blog</h1> <br/>
         <p style={paragraphs}>
@@ -32,7 +32,7 @@ const paragraphs = {
       <Routes>
         <Route path="info" element={<Info />} />
       </Routes> 
-    </div>
+    </main>
   );
 };
 
