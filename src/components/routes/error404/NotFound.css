@@ -1,0 +1,10 @@
+.container{
+    background: url('404.png');
+    background-size: 100% 100%;
+    height: 100vh;
+    color: #eee;
+    padding: 20px;
+}
+.go-home{
+    color: #ccc;
+}

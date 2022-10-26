@@ -1,0 +1,40 @@
+.info{
+   width: 100%;
+    text-align: center;
+    margin-top: 5em;
+    /* background-color: '#152238'; */
+}
+.info-paragraphs{
+    width: 90%;
+    color: black;
+    padding: 10px;
+    margin: auto;
+
+}
+@media screen and (min-width : 650px){
+    .info-paragraphs{
+        display: flex;
+        width: 100%;
+        gap: 7px;
+        justify-content: center;
+        align-items: center;
+        padding: 7px;     
+        border: 1px solid black;
+    }
+    .info-paragraphs p {
+        color: black;
+    }
+}
+.info-paragraphs p {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid lightgray;
+    height: 40vh;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    border-radius:7px ;
+    width: 100%;
+}

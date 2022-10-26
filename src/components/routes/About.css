@@ -1,0 +1,11 @@
+.center-all{
+    color : #eee;
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+.center-all h1{
+    color: white;
+}

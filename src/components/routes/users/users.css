@@ -1,0 +1,15 @@
+.users-container{
+    width: 100vw;
+}
+@media screen and (min-width : 650px){
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+
+}
+}
