@@ -1,9 +1,17 @@
 .user-container{
     border-radius: 10px;
     background-color: #eee;
-    height:70vh;
+    height:75vh;
+    color: #152238;
     margin: 0.85em;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.25s ease-out ;
     
+}
+.user-container:hover{
+    background-color: rgba(0,0,0,0.3);
+    color : #eee;
 }
 
 @media screen and (min-width : 650px){
@@ -15,11 +23,12 @@
 .user-container div{
     text-align: center;
     padding-top: 2em;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.user-container div h2{
-    color: #152238;
-}
+
 .user-container div p{
     font-size: 20px;
     font-weight: 700;
@@ -27,9 +36,12 @@
     word-wrap: break-word;
     word-break: break-all;
 }
+.user-container div h2:hover{
+    color: #eee;
+}
 .user-img{
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     transform: scale(1);
     transition: transform 2s ease;
@@ -39,5 +51,6 @@
 }
 .user-img-container{
     overflow: hidden;
+    height: 100%;
 }
 

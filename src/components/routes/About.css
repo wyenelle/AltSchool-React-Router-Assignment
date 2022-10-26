@@ -1,11 +1,16 @@
 .center-all{
     color : #eee;
     display: flex;
+    height: 100vh;
     flex-direction : column;
     justify-content: center;
     align-items: center;
     margin-bottom: 5em;
+    text-align: center;
 }
 .center-all h1{
     color: white;
+}
+.about-paragraph{
+    padding: 10px;
 }
