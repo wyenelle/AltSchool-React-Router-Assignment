@@ -24,9 +24,9 @@ const User = ({ user }) => {
       <div>
         <div className="user-img-container">
           <img src={large} className="user-img" />
-        </div>
+        </div><br />
         <h2> {`${title} ${first} ${last}`} </h2>
-        <p>{email}</p>
+        <p>{email.length > 23 ? `${email.slice(0,23)}...` : email}</p>
         <p>{phone}</p>
       </div>
     </div>

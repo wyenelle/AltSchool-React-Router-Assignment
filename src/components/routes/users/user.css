@@ -1,7 +1,7 @@
 .user-container{
     border-radius: 10px;
     background-color: #eee;
-    height:75vh;
+    height:80vh;
     color: #152238;
     margin: 0.85em;
     cursor: pointer;
@@ -17,6 +17,9 @@
 @media screen and (min-width : 650px){
     .user-container{
         margin: 3px ;
+        padding: 10px;
+        height: 75vh;
+        overflow: hidden;
     }
 }
 

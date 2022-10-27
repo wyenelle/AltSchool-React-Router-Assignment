@@ -6,6 +6,13 @@ nav ul{
     
 
 }
+@media screen and (min-width : 650px){
+    nav ul{
+        background-color: inherit;
+        width: 87%;
+        padding: 20px;
+    }
+}
 nav ul li{
     margin: auto;
 }

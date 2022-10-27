@@ -5,6 +5,8 @@ const Home = () => {
     height: "100vh",
     display: "flex",
     color : '#eee',
+    fontSize : '20px',
+    padding : 20, 
     flexDirection : 'column',
     justifyContent: "center",
     alignItems: "center",
